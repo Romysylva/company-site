@@ -1,0 +1,288 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* html{
+    scroll-behavior: smooth;
+    transition: .5s;
+    -webkit-transition: .7s;
+} */
+.header{
+    background:  url(./assets/images/mp3.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* position: fixed; */
+    height: 40vh;
+}
+#myPage{
+    background:  url(./assets/images/mp3.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+/* .overlay{
+    background-color: rgba(230, 79, 3, 0.9);
+    z-index: -1;
+    height: 40vh;
+  
+}  */
+.modal-header{
+    background-color: #02309b !important;
+    color: #fff !important;
+
+}
+#myModal{
+  transform: translateY(10%);
+  -webkit-transform: translateY(10%);
+  width: 90%;
+  margin: 0 auto;
+  background-color: transparent !important;
+ 
+
+}
+
+body{
+    font: 400 15px Lato, sans-serif;
+}
+.jumbotron {
+    background-color: rgba(230, 79, 3, 0.6) !important;
+    color: #ffffff !important;
+    padding: 100px 25px !important;
+    position: relative;
+    z-index: 1;
+    text-shadow: 5px 0px  5px #021644;
+    height: 40vh;
+    
+    
+}
+.container-fluid{
+    padding: 60px 50px;
+}
+.bg-grey{
+    /* background-color: rgb(235, 233, 233); */
+}
+.logo{
+    font-size: 250px;
+    color: rgb(239, 89, 13);
+}
+.logo-small{
+    color: #f4511e;
+    font-size: 50px;
+}
+.fluid{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+  
+}
+.thumbnail{
+    padding: 0 0 15px 0;
+    border: none !important;
+    border-radius: 0;
+    background-color: transparent !important;
+}
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-color: transparent !important;
+}
+.carousel-control.right,
+.carousel-control.left{
+    background-image: none;
+    color: #fff;
+}
+.carousel-indicators li{
+    border-color: #f4511e;
+}
+.carousel-indicators li.active{
+    background-color: #f4511e;
+}
+.item h4{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.375rem;
+    font-style: italic;
+    margin: 70px 0;
+}
+.item span{
+    font-style: normal;
+}
+.panel{
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+    background-color: transparent !important;
+    border: none !important;
+    
+    
+}
+.panel:hover{
+    box-shadow: 5px 10px 40px rgba(254, 100, 5, 0.4);
+}
+.panel-footer .btn:hover{
+    border: 1px solid #f4701e;
+    background-color: #fff !important;
+    color: #f4511e ;
+}
+.panel-heading{
+    color: #ffffff !important;
+    background-color: #f4701e !important;
+    padding: 25px ;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: transparent !important;
+    border: none !important;
+}
+.panel-footer{
+    background-color: transparent !important;
+    border: none !important;
+}
+.panel-footer h3{
+    font-size: 32px;
+}
+.panel-footer h4{
+    color: #aaa;
+    font-size: 14px;
+}
+.panel-footer .btn{
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #ffffff;
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+textarea{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.glyphicon-map-marker{
+    color: green;
+}
+.glyphicon-phone{
+   color: #f4511e;
+}
+.glyphicon-envelope{
+    color: rgb(9, 72, 209);
+ }
+ .navbar{
+    background-color: transparent !important;
+    box-shadow: 15px 0 10px #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 17px !important;
+    line-height: 1.4287514 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand{
+    color: #fff !important;
+    letter-spacing: 4px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+    color: #f4511e !important; 
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+}
+.navbar-default .navbar-toggle{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.icon-bar{
+    color: #fff !important;
+}
+footer .glyphicon{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+.fa-low-vision{
+    font-size: 20px;
+    color: #f4511e;
+    padding-right: 10px;
+}
+.c-p{
+    padding-left: 30%;
+}
+.carousel-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: -30px;
+   
+    
+}
+#portfolio caption{
+    color: rgb(236, 224, 224) !important;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@media only screen and (max-width:768) {
+    .col-sm-4{
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+    .navbar{
+        background-color: rgba(64, 18, 4, 0.937) !important;
+        box-shadow: none;
+
+    }
+    #remark h4{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #about h4{
+        font-size: 15px;
+    }
+    #about p{
+        font-size: 12px;
+    }
+    #vission h4{
+        font-size: 15px;
+    }
+    #vission p{
+        font-size: 12px;
+    }
+  }
