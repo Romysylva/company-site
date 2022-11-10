@@ -60,12 +60,15 @@ body{
     
     
 }
+span{
+    color: #fff;
+}
 .container-fluid{
     padding: 60px 50px;
 }
-.bg-grey{
-    /* background-color: rgb(235, 233, 233); */
-}
+/* .bg-grey{
+    background-color: rgb(235, 233, 233);
+} */
 .logo{
     font-size: 250px;
     color: rgb(239, 89, 13);
