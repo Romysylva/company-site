@@ -233,6 +233,9 @@ footer .glyphicon{
    
     
 }
+#modal-body{
+  display: none;
+}
 #portfolio caption{
     color: rgb(236, 224, 224) !important;
 }
@@ -398,4 +401,41 @@ footer .glyphicon{
         font-size: 14px;
         line-height: 16px;
     }
-  }
+}
+  #myModal-abinfo .modal-body{
+    color: #021644 !important;
+    background-color: transparent !important;
+    width: 90%;
+    margin: 0 auto;
+}
+#myModal-abinfo{
+    transform: translateY(10%);
+    -webkit-transform: translateY(10%);
+    width: 90%;
+    margin: 0 auto;
+    background-color: transparent !important;
+}
+
+#myBtn-abinfo{
+    /* float: right; */
+    
+    margin: 50px;
+    background-color: #f4511e !important;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+#myBtn-abinfo:hover{
+    background-color: #fff !important;
+    color: #f4511e;
+
+}
+#myBtn{
+    margin-top: 100px;
+}
