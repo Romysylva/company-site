@@ -366,11 +366,23 @@ footer .glyphicon{
     }
   }
 
-@media only screen and (max-width:768) {
+@media only screen and (max-width:768px) {
     .col-sm-4{
         text-align: center;
         margin: 25px 0;
     }
+    .input-1[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 90%;
+      margin: 0;
+      padding: 14px;
+    }
+    .input-1[type=text] {
+      border: 1px solid #ccc;
+    }
+  
 }
 @media screen and (max-width: 480px) {
     .logo {
@@ -380,6 +392,14 @@ footer .glyphicon{
         background-color: rgba(54, 23, 14, 0.937) !important;
         box-shadow: none;
 
+    }
+    .fa-search{
+      position: absolute;
+      float: right;
+      top: 15px;
+      left: 500px;
+      display: none;
+    
     }
     #remark h4{
         font-size: 12px;
@@ -432,10 +452,66 @@ footer .glyphicon{
     display: flex;
 }
 #myBtn-abinfo:hover{
-    background-color: #fff !important;
-    color: #f4511e;
-
+    background-color: rgb(146, 40, 8) !important;
+    color: #f4511e !important;
+    font-size: 17px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border: none !important;
 }
 #myBtn{
     margin-top: 100px;
+}
+.mouse-over-p:hover{
+  font-size: 15px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
+}
+.mouse-over-h:hover{
+  font-size: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
+}
+.panel-footer .btn:hover{
+  border: dotted !important;
+  background-color: transparent !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.overlay a{
+  text-decoration: none;
+  color: #fff;
+}
+.overlay a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.input-1[type=text] {
+  float: right;
+  padding: 4px;
+  border: 1px solid #fff;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.fa-search{
+  position: relative;
+  top: 15px;
+  left: 215px;
+  display: none;
+
 }
