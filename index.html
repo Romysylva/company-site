@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="myscript.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <section id="main" class="">
@@ -87,20 +88,20 @@
         <div class="container-fluid text-center ">
             <h2>SERVICES</h2>
             <h4>What We Are Good At</h4>
-           <div class="row slideanim">
-                <div class="col-sm-4 slide">
+           <div class="row slideanim ">
+                <div class="col-sm-4 js-scroll slide-left scrolled">
                     <span class="glyphicon glyphicon-off logo-small slide-1"> </span>
                     <h4>POWER</h4>
                     <P>Our Strenght Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nulla, delectus adipisci laborum saepe, quo, at tenetur dicta aperiam quasi pariatur facilis eius tempora! Inventore ab excepturi odit quis ducimus?</P>
                 
                 </div>
-                <div class="col-sm-4 slide">
+                <div class="col-sm-4 js-scroll fade-in-bottom scrolled ">
                     <span class="glyphicon glyphicon-heart logo-small"> </span>
                     <h4>LOVE</h4>
                     <P>Our Strenght Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nulla, delectus adipisci laborum saepe, quo, at tenetur dicta aperiam quasi pariatur facilis eius tempora! Inventore ab excepturi odit quis ducimus?</P>
                 
                 </div>
-                <div class="col-sm-4 slide">
+                <div class="col-sm-4 js-scroll slide-in-top scrolled">
                     <span class="glyphicon glyphicon-lock logo-small"> </span>
                     <h4>JOB DONE</h4>
                     <P>Our Strenght Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nulla, delectus adipisci laborum saepe, quo, at tenetur dicta aperiam quasi pariatur facilis eius tempora! Inventore ab excepturi odit quis ducimus?</P>
@@ -108,13 +109,13 @@
             </div>
             <br><br>
             <div class="row slideanim">
-                <div class="col-sm-4 slide">
+                <div class="col-sm-4 js-scroll scrolled slide-left">
                     <span class="glyphicon glyphicon-leaf logo-small"> </span>
                     <h4>GREEN</h4>
                     <P>Our Strenght Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nulla, delectus adipisci laborum saepe, quo, at tenetur dicta aperiam quasi pariatur facilis eius tempora! Inventore ab excepturi odit quis ducimus?</P>
                 
                 </div>
-                <div class="col-sm-4 slide">
+                <div class="col-sm-4 js-scroll scrolled slide-right">
                     <span class="glyphicon glyphicon-certificate logo-small"> </span>
                     <h4>CERTIFIED</h4>
                     <P>Our Strenght Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nulla, delectus adipisci laborum saepe, quo, at tenetur dicta aperiam quasi pariatur facilis eius tempora! Inventore ab excepturi odit quis ducimus?</P>
@@ -127,7 +128,7 @@
             <h2>Portfolio</h2>
             <h4>The Outcome Of Our Services</h4>
             <div class="row text-center slideanim ">
-                <div class="col-sm-4 ">
+                <div class="col-sm-4 js-scroll scrolled slide-left">
                     <div class="thumbnail">
                         <img src="./assets/images/com.jpg" class="fluid" alt="">
                         <p>strategy Yes</p>
@@ -135,14 +136,14 @@
                     
                     </div>
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4 js-scroll scrolled slide-in-top  ">
                     <div class="thumbnail">
                         <img src="./assets/images/mp3.jfif" class="fluid"alt="">
                         <p>Trade Yes</p>
                         <p>We buy, We Sell, We Grow every Assets</p>
                     </div>
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4 js-scroll scrolled slide-right ">
                     <div class="thumbnail">
                         <img src="./assets/images/mp1.jfif" class="fluid" alt="">
                         <p>Trade Yes</p>
@@ -155,7 +156,7 @@
     </section><br><br>
     <section id="remark">
         <h3 class="text-center">What Our Customers say</h3>
-        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel"> 
+        <div id="myCarousel" class="carousel slide text-center js-scroll scrolled slide-in-top  " data-ride="carousel"> 
             <ol class=" carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active">
                 </li>
@@ -190,7 +191,7 @@
                 <h4>Choose a payment plan that works for you</h4>
             </div>
             <div class="row slideanim">
-                <div class="col-sm-4">
+                <div class="col-sm-4 js-scroll scrolled slide-right">
                     <div class="panel panel-default text-center">
                        <div class="panel-heading">
                         <h1>Basic</h1>  </div> 
@@ -208,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 js-scroll scrolled fade-in-bottom">
                     <div class="panel panel-default text-center">
                        <div class="panel-heading">
                         <h1>Pro</h1> </div> 
@@ -226,7 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 js-scroll scrolled slide-left">
                     <div class="panel panel-default text-center">
                        <div class="panel-heading">
                         <h1>Premium</h1> </div> 
@@ -251,7 +252,7 @@
         <div class="container-fluid bg-grey">
             <h2 class="text-center text-uppercase">Contact</h2>
             <div class="row slideanim">
-                <div class="col-sm-5 c-p ">
+                <div class="col-sm-5 c-p js-scroll scrolled slide-right ">
                     <p>contact us and we will get back to you within 24 hours.</p>
                     <p><span class="glyphicon glyphicon-map-marker"> Accra, Gh</span></p>
                     <p><span class="glyphicon glyphicon-phone"> +2347030088454</span></p>
@@ -269,30 +270,30 @@
                 </div>
                 <div class="col-sm-7">
                     <div class="row slideanim">
-                        <div class="col-sm-6 form-group">
+                        <div class="col-sm-6 form-group js-scroll scrolled slide-in-top ">
                             <input class="form-control" id="firstname" name="firstname" placeholder="First Name" type="text" required>
                         </div>
-                        <div class="col-sm-6 form-group">
+                        <div class="col-sm-6 form-group js-scroll scrolled slide-left">
                             <input class="form-control" id="
                             name" name="lastname" placeholder="Last Name" type="text" required>
                         </div>
-                        <div class="col-sm-6 form-group">
+                        <div class="col-sm-6 form-group js-scroll scrolled fade-in-bottom">
                             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
                         </div>
-                        <div class="col-sm-6 form-group slide">
+                        <div class="col-sm-6 form-group slide-in-top">
                             <input class="form-control" id="phone" name="phone" type="text" placeholder="Number" required>
                         </div>
                     </div>
                     <textarea class="form-control slideanim" id="comments" name="comments" placeholder="Comments" row="5"></textarea><br>
                     <div class="row">
-                        <div class="col-sm-12 form-group">
-                            <button class="btn btn-primary btn-lg pull-right" type="submit">Send</button>
+                        <div class="col-sm-12 form-group js-scroll scrolled slide-in-top ">
+                            <button class="btn btn-primary btn-lg pull-right js-scroll scrolled slide-left" type="submit">Send</button>
                         </div>
                     </div>
                 </div>
                 <br><br>
                 <div class="container">
-                    <img src="./assets/images/map.jpg" class="slideanim" style="width:100%"alt="">
+                    <img src="./assets/images/map.jpg" class="slideanim js-scroll scrolled slide-left" style="width:100%"alt="">
                 </div><br><br>
                
             </div>
@@ -365,7 +366,7 @@
             </div>
         </div>
     </div>
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid text-center js-scroll scrolled slide-in-top ">
         <a href="#myPage" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
         <p>FxMIRRORview<br><a href="mirrorview.com"><span class="glyphicon glyphicon-envelope "></span>  info@mirrorview.com</a></p>
     </footer>
@@ -444,6 +445,50 @@
         loop: true
 
     })
+    </script>
+    <script>
+        
+const scrollElements = document.querySelectorAll(".js-scroll");
+
+const elementInView = (el, dividend = 1) => {
+const elementTop = el.getBoundingClientRect().top;
+
+return (
+elementTop <=
+(window.innerHeight || document.documentElement.clientHeight) / dividend
+);
+};
+
+const elementOutofView = (el) => {
+const elementTop = el.getBoundingClientRect().top;
+
+return (
+elementTop > (window.innerHeight || document.documentElement.clientHeight)
+);
+};
+
+const displayScrollElement = (element) => {
+element.classList.add("scrolled");
+};
+
+const hideScrollElement = (element) => {
+element.classList.remove("scrolled");
+};
+
+const handleScrollAnimation = () => {
+scrollElements.forEach((el) => {
+if (elementInView(el, 1.25)) {
+displayScrollElement(el);
+} else if (elementOutofView(el)) {
+hideScrollElement(el)
+}
+})
+}
+
+window.addEventListener("scroll", () => { 
+handleScrollAnimation();
+});
+
     </script>
 </body>
 </html>
