@@ -383,6 +383,7 @@ footer .glyphicon{
       border: 1px solid #ccc;
     }
   
+  
 }
 @media screen and (max-width: 480px) {
     .logo {
@@ -393,14 +394,7 @@ footer .glyphicon{
         box-shadow: none;
 
     }
-    .fa-search{
-      position: absolute;
-      float: right;
-      top: 15px;
-      left: 500px;
-      display: none;
-    
-    }
+   
     #remark h4{
         font-size: 12px;
         font-weight: 400;
@@ -507,11 +501,4 @@ footer .glyphicon{
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-}
-.fa-search{
-  position: relative;
-  top: 15px;
-  left: 215px;
-  display: none;
-
 }
